@@ -204,3 +204,5 @@ class StudentViewSet(viewsets.ModelViewSet): #to change the class  into viewset 
 
  #Signals value Inserted: Creating a new object it gets inserted into the database which has been created in myapp_student_signals
 Student_Signals.objects.create(name="Bijoye",age=50)
+
+# this is a test data
